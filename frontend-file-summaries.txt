@@ -1,0 +1,10 @@
+{
+  "frontend/src/App.tsx": "Main application component with tabs for exam generation and question management, includes theme provider and toast notifications with fixed gradient text styling.",
+  "frontend/src/components/Header.tsx": "Application header with branding, title, and theme toggle button.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright notice and caffeine.ai attribution link.",
+  "frontend/src/components/ExamGenerator.tsx": "Exam paper configuration interface allowing chapter selection, question type counts, and Word document generation with preview.",
+  "frontend/src/components/QuestionManager.tsx": "Complete CRUD interface for managing question bank with dialog forms, table view, and image upload support with fixed Tailwind v3 class names.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including fetching, adding, updating, and deleting questions with automatic cache invalidation.",
+  "frontend/src/lib/documentGenerator.ts": "Word document generation utility that creates HTML-based .doc files with professional formatting, sections, and embedded images using only browser APIs without external dependencies.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring purple/blue theme for both light and dark modes."
+}
